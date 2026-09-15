@@ -1,0 +1,9 @@
+gate-of-finality-intro/work/fonts/
+gate-of-finality-intro/work/frames/
+gate-of-finality-intro/work/audio/
+gate-of-finality-intro/work/video/
+gate-of-finality-intro/work/cells/
+__pycache__/
+*.pyc
+*.s16le
+*.otf
