@@ -1,14 +1,17 @@
-# PRODUCTION gate-of-finality-intro
+# 制作文档 · gate-of-finality-intro
 
-Status:
-- Script: done v0.4
-- 4x4 storyboard: done, one image, no repeated mid shots
-- Voice / BGM: not done
-- Final video: NOT DONE
-- Game hook: not done
+## 状态
+- 剧本：完成 v0.4
+- 4x4分镜：完成（一张图，故事从盛世到全信）
+- 配音/BGM：未做
+- 成片：未完成
+- 接入游戏：未做
 
-Done means: 30s, 16:9, follow cells 01-16, no faces, letter is one continuous page on cell 15, cell 16 is hold, no logo, file in output/intro_30s.mp4
+## 完成标准
+30秒，16:9，按01-16，无脸，信文只在15连成一篇，16是收镜，无Logo。成片放 output/intro_30s.mp4
 
-After finish: put mp4 in output/, mark this file done, then play on first login before LetterIntro.
+## 完成后
+把mp4放入output/，把本文件改成完成，首次登录先播这条再进信件或城镇。
 
-Do not: generate 16 separate images; split the letter into one sentence per cell; add title logo; mix other projects in this folder.
+## 不要
+不要按格多次生图。不要一句一格拆信。不要加标题Logo。不要把别的项目丢进这个文件夹。
