@@ -1,59 +1,14 @@
-# 制作文档 · gate-of-finality-intro
+# PRODUCTION gate-of-finality-intro
 
-仓库用途：多项目视频素材容器。本文件夹只放《终焉之门》开场片，不要和其他项目文件混在同一层。
+Status:
+- Script: done v0.4
+- 4x4 storyboard: done, one image, no repeated mid shots
+- Voice / BGM: not done
+- Final video: NOT DONE
+- Game hook: not done
 
-## 状态
+Done means: 30s, 16:9, follow cells 01-16, no faces, letter is one continuous page on cell 15, cell 16 is hold, no logo, file in output/intro_30s.mp4
 
-| 项 | 状态 |
-|---|---|
-| 剧本 | **完成**（v0.2） |
-| 4×4 分镜总板 | **完成**（一张图一次生成，16 格） |
-| 配音 / BGM | 未做 |
-| 成片视频 | **未完成** |
-| 接入游戏 | 未做 |
+After finish: put mp4 in output/, mark this file done, then play on first login before LetterIntro.
 
-当前可交付物：**剧本 + 一张 16:9 分镜总板**。
-还不能当片用。下一步才是按这 16 格生成 / 剪 30 秒成片。
-
-## 完成标准
-
-成片算完成，必须同时满足：
-
-1. 时长约 30 秒，画幅 16:9（1920×1080）。
-2. 镜头顺序与 `storyboard_4x4.png` 的 01→16 一致。
-3. 全程无人、无剪影、无手、无脸。
-4. 结尾停在完整信纸（第 16 格），不切回大门，不叠 Logo / 游戏标题。
-5. 信文与 `SCRIPT.md` 一致，字要能读。
-6. 成片文件放到 `output/`，并更新本文件状态表。
-
-## 完成后怎么用
-
-1. 把成片放进本文件夹：`output/intro_30s.mp4`。
-2. 把本文件「成片视频」改成 **完成**，写上日期和文件名。
-3. 游戏侧接入：首次登录播这条 30 秒，播完再进现有 LetterIntro 或直接进城镇。
-4. 本片不负责三人苏醒、轮回漩涡、标题 Logo。那些是后续项目，另开文件夹。
-
-## 不要做的事
-
-- 不要按格多次生图再拼——会丢一致性。分镜必须维持「一张总板」。
-- 不要在成片结尾加 Logo / 「终焉之门」大标题。
-- 不要加人。
-- 不要把别的项目文件丢进这个文件夹。
-
-## 建议制作路径
-
-1. 以 `storyboard_4x4.png` 为唯一视觉圣经。
-2. 视频生成时把总板当参考，按 01–16 顺序出镜头；同一场景锁色、锁光。
-3. 11–16 视为同一张纸的字逐渐出现，不要每格换一张新信。
-4. 旁白用 `SCRIPT.md` 五句，不要临时加旁白。
-5. 成片过一遍完成标准，再提交。
-
-## 文件清单
-
-```
-gate-of-finality-intro/
-  PRODUCTION.md          本文件（状态 / 如何完成）
-  SCRIPT.md              30 秒逐镜剧本 + 信文 + 旁白
-  storyboard_4x4.png     16:9 四行四列分镜总板（唯一视觉稿）
-  output/                成片目录（现在是空的）
-```
+Do not: generate 16 separate images; split the letter into one sentence per cell; add title logo; mix other projects in this folder.
